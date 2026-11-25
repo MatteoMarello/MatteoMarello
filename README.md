@@ -20,6 +20,17 @@ Presidio, transformer NER) with a clinical veto, encounter-level entity propagat
 adversarial evaluation with a synthetic record-linkage attack. Results are team-reported on synthetic data; see the
 repository for scope and limitations. I was one of the contributors.
 
+#### In progress
+
+**[ClauseShift](https://github.com/MatteoMarello/ClauseShift)** · counterfactual evaluation of evidence-grounded inference  
+Minimal pairs of rule-like documents that differ by one decisive edit (an exemption, a threshold, a date, a
+cross-reference). Zero-shot NLI models answer 53% of items correctly but both sides of a pair only 30% of the time,
+and almost never handle numeric or date boundaries. Fine-tuning experiments on paired vs. unpaired training are next.
+
+**[Semantic Privacy Lab](https://github.com/MatteoMarello/Semantic-Privacy-Lab)** · privacy–utility trade-offs in text anonymization  
+Seven anonymization strategies against record-linkage and dense-retrieval attacks on a synthetic population with
+known ground truth. Masking only direct identifiers still leaves 43% of authors re-identifiable from ordinary facts.
+
 #### Interests
 
 Natural language inference and evidence-grounded reasoning · counterfactual and contrast-set evaluation ·
